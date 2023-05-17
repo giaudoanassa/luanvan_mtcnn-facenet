@@ -1,43 +1,16 @@
-# SIMPLE FACENET
-Video step by step: https://www.youtube.com/watch?v=-8jTTeXzfFc&list=PLUzMg0FYFJETawSkez0b9C41ByOo6_N5L&index=3
 
-(Fork and edit from repo: https://github.com/davidsandberg/facenet)
 
 ### 1. Colect data:
 Colect data and push it into ```your_face``` as bellow:
 ```buildoutcfg
 your_face/
-├── ChiPu
-│   ├── ChiPu_0001.jpg
-│   ├── ChiPu_0002.jpg
+├── GiauDoan
+│   ├── GiauDoan_0001.jpg
+│   ├── GiauDoan_0002.jpg
 │   ├── ...
-│   ├── ChiPu_0014.jpg
-│   └── ChiPu_0015.jpg
-├── HienHo
-│   ├── HienHo_0001.jpg
-│   ├── HienHo_0002.jpg
-│   ├── ...
-│   ├── HienHo_0014.jpg
-│   └── HienHo_0015.jpg
-├── TrinhThao
-│   ├── TrinhThao_0001.jpg
-│   ├── TrinhThao_0002.jpg
-│   ├── ...
-│   ├── TrinhThao_0014.jpg
-│   └── TrinhThao_0015.jpg
-├── TrucAnh
-│   ├── TrucAnh_00013.jpg
-│   ├── TrucAnh_0001.jpg
-│   ├── ...
-│   ├── TrucAnh_0014.jpg
-│   └── TrucAnh_0015.jpg
-└── TruongGiang
-    ├── TruongGiang_0001.jpg
-    ├── TruongGiang_0002.jpg
-    ├── ...
-    ├── TruongGiang_0015.jpg
-    └── TruongGiang_0016.jpg
-```
+│   ├── GiauDoan_0014.jpg
+│   └── GiauDoan_0015.jpg
+
 
 ### 2. Install requirements:
 Install requirements ```pip install -r requirements.txt```
